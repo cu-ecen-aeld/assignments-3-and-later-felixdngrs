@@ -9,22 +9,21 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
     - name: Make test scripts executable
-      run: |
+    run: |
         chmod +x finder-app/finder-test.sh
-	    chmod +x full-test.sh
-	    chmod +x unit-test.sh
-
+        chmod +x full-test.sh
+        chmod +x unit-test.sh
+        
     - name: Run finder-test.sh
       run: finder-app/finder-test.sh
 
 	- name: Run full-test.sh
-	  run: ./full-test.sh
+      run: ./full-test.sh
 
 	- name: Run unit-test.sh
-	  run: ./unit-test.sh
+      run: ./unit-test.sh
