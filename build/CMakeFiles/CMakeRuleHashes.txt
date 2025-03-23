@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-7ba9fcb394ee3de16f56ed05592e0bef /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c
