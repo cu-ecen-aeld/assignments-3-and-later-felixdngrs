@@ -18,9 +18,9 @@ jobs:
         chmod +x finder-app/finder-test.sh
         chmod +x full-test.sh
         chmod +x unit-test.sh
-        
+  
     - name: Run finder-test.sh
-      run: finder-app/finder-test.sh
+      run: ./finder-app/finder-test.sh
 
 	- name: Run full-test.sh
       run: ./full-test.sh
