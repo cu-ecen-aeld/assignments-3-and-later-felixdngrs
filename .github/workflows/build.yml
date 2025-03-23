@@ -15,7 +15,7 @@ jobs:
     - name: Make full-test script executable
       run: chmod +x full-test.sh
     - name: Make full-test script executable
-      run: chmod +x unit-test.sh#
+      run: chmod +x unit-test.sh
 	- name: Run full-test.sh
       run: ./full-test.sh
 	- name: Run unit-test.sh
