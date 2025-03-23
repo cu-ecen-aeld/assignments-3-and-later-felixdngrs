@@ -20,7 +20,10 @@ jobs:
         chmod +x unit-test.sh
   
     - name: Run finder-test.sh
-      run: ./finder-app/finder-test.sh
+      run: |
+        cd finder-app
+        ./finder-test.sh
+        cd ..
 
 	- name: Run full-test.sh
       run: ./full-test.sh
