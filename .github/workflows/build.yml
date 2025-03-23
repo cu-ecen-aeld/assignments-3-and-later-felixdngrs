@@ -14,3 +14,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Make unit-test.sh executable
+        run: chmod +x unit-test.sh
+
+      - name: Run unit-test.sh
+        run: ./unit-test.sh
+
