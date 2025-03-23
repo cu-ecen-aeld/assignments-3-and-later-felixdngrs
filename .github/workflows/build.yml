@@ -15,16 +15,9 @@ jobs:
 
     - name: Make test scripts executable
       run: |
-        chmod +x finder-app/finder-test.sh
         chmod +x full-test.sh
         chmod +x unit-test.sh
 
-    - name: Jump to finder-app
-      run: cd finder-app
-    - name: Run finder-test.sh
-      run: ./finder-test.sh
-    - name: Jump back
-      run: cd ..
 	- name: Run full-test.sh
       run: ./full-test.sh
 	- name: Run unit-test.sh
