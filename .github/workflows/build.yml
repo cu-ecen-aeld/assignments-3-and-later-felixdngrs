@@ -25,9 +25,7 @@ jobs:
       run: ./finder-test.sh
     - name: Jump back
       run: cd ..
-
 	- name: Run full-test.sh
       run: ./full-test.sh
-
 	- name: Run unit-test.sh
       run: ./unit-test.sh
