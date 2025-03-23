@@ -19,11 +19,12 @@ jobs:
         chmod +x full-test.sh
         chmod +x unit-test.sh
 
+    - name: Jump to finder-app
+      run: cd finder-app
     - name: Run finder-test.sh
-      run: |
-        cd finder-app
-        ./finder-test.sh
-        cd ..
+      run: ./finder-test.sh
+    - name: Jump back
+      run: cd ..
 
 	- name: Run full-test.sh
       run: ./full-test.sh
