@@ -178,3 +178,1203 @@ Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/bePVyD1tIdBQ3Jq
 The number of files are 10 and the number of matching lines are 10
 success
 Test of assignment assignment1 complete with success
+Running test with user felix
+CMake Error: The current CMakeCache.txt directory /home/felix/Projects/Coursera/assignment-1-felixdngrs/build/CMakeCache.txt is different than the directory /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/felix/Projects/Coursera/assignment-1-felixdngrs/CMakeLists.txt" does not match the source "/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/student-test/assignment1/Test_validate_username_Runner.c, /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+make[2]: *** No rule to make target 'assignment-autotest/Unity/src/libunity.a', needed by 'assignment-autotest/assignment-autotest'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:130: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Error: The current CMakeCache.txt directory /home/felix/Projects/Coursera/assignment-1-felixdngrs/build/CMakeCache.txt is different than the directory /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/felix/Projects/Coursera/assignment-1-felixdngrs/CMakeLists.txt" does not match the source "/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/student-test/assignment1/Test_validate_username_Runner.c, /home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/linux_systemprogrammierung_einfuehrung_buildroot/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+make[2]: *** No rule to make target 'assignment-autotest/Unity/src/libunity.a', needed by 'assignment-autotest/assignment-autotest'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:130: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (3.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (3.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (3.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+writer.c: In function ‘main’:
+writer.c:52:59: error: expected ‘;’ before ‘return’
+   52 |         fprintf(stderr, "EXIT_SUCCESS = %d", EXIT_SUCCESS)
+      |                                                           ^
+      |                                                           ;
+   53 |         return EXIT_SUCCESS;
+      |         ~~~~~~                                             
+make: *** [Makefile:10: writer.o] Error 1
+./assignment-autotest/test/assignment2/assignment-test.sh: line 13: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment2/assignment-test.sh: line 19: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+rm: cannot remove 'writer': No such file or directory
+rm: cannot remove '*.o': No such file or directory
+make: *** [Makefile:13: clean] Error 1
+[0;31mValidation Error:finder-test.sh execution failed with return code 2[0m
+Validation failed with error list :writer should have exited with return value 1 if no parameters were specified:writer should have exited with return value 1 if write string is not specified:finder-test.sh execution failed with return code 2
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+rm: cannot remove 'writer': No such file or directory
+rm: cannot remove '*.o': No such file or directory
+make: *** [Makefile:13: clean] Error 1
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (3.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[5493]: Error: couldn't open file with mode "a"
+./writer[5494]: Error: couldn't open file with mode "a"
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[5511]: Error: couldn't open file with mode "a"
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[5657]: Error: couldn't open file '(null)'
+./writer[5658]: Error: couldn't open file ''
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[5675]: Error: couldn't open file '/tmp/aeld-data'
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[5884]: Error: couldn't open file '(null)'
+./writer[5885]: Error: couldn't open file ''
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[5902]: Error: '/tmp/aeld-data' is a directory, not a file
+[0;31mValidation Error:finder-test.sh execution failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution failed with return code 1
+Test of assignment assignment2 failed with rc=1
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment2 ~/Projects/Coursera/assignment-1-felixdngrs
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[6108]: Error: couldn't open file '(null)'
+./writer[6109]: Error: couldn't open file ''
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+Removing the old writer utility and compiling as a native application
+rm writer *.o
+gcc -c writer.c
+gcc -o writer writer.o
+./writer[6126]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs1.txt
+./writer[6127]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs2.txt
+./writer[6128]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs3.txt
+./writer[6129]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs4.txt
+./writer[6130]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs5.txt
+./writer[6131]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs6.txt
+./writer[6132]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs7.txt
+./writer[6133]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs8.txt
+./writer[6134]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs9.txt
+./writer[6135]: Writing 'AELD_IS_FUN' to /tmp/aeld-data/felixdngrs10.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment2 complete with success
