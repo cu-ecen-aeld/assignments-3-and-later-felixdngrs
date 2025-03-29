@@ -1378,3 +1378,128 @@ gcc -o writer writer.o
 The number of files are 10 and the number of matching lines are 10
 success
 Test of assignment assignment2 complete with success
+Running test with user felix
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/felix/Projects/Coursera/assignment-1-felixdngrs/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing safe_level with the 2nd argument of ERB.new is deprecated. Do not use it, and specify other arguments as keyword arguments.
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/Unity/auto/generate_test_runner.rb:344: warning: Passing trim_mode with the 3rd argument of ERB.new is deprecated. Use keyword argument like ERB.new(str, trim_mode: ...) instead.
+Autogenerating test/unity_runner.c
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Remove trailing newline
+Read this is a test from testfile.txt
+system() echo this is a test returned this is a test
+Remove trailing newline
+Read home is /home/felix from testfile.txt
+system() echo home is $HOME returned: home is /home/felix
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls.c:28:test_systemcalls:PASS
+Running tests at /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_calls
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls.c:58:test_exec_calls:PASS
+Running tests at /home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_exec_redirect_calls
+Remove trailing newline
+Read home is /home/felix from testfile.txt
+execv /bin/sh -c echo home is $HOME returned home is /home/felix
+Remove trailing newline
+Read home is $HOME from testfile.txt
+execv /bin/echo home is $HOME returned home is $HOME
+/home/felix/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3/Test_systemcalls.c:72:test_exec_redirect_calls:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3 ~/Projects/Coursera/assignment-1-felixdngrs
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/Projects/Coursera/assignment-1-felixdngrs/finder-app ~/Projects/Coursera/assignment-1-felixdngrs/assignment-autotest/test/assignment3 ~/Projects/Coursera/assignment-1-felixdngrs
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.1.10 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Note: switching to '7e1bdd68ffeecb9ef476f87b791b61910e8c853c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Updating files:   2% (1676/63878)Updating files:   3% (1917/63878)Updating files:   4% (2556/63878)Updating files:   5% (3194/63878)Updating files:   5% (3739/63878)Updating files:   6% (3833/63878)Updating files:   7% (4472/63878)Updating files:   8% (5111/63878)Updating files:   8% (5321/63878)Updating files:   9% (5750/63878)Updating files:  10% (6388/63878)Updating files:  10% (6402/63878)Updating files:  11% (7027/63878)Updating files:  12% (7666/63878)Updating files:  12% (7930/63878)Updating files:  13% (8305/63878)Updating files:  14% (8943/63878)Updating files:  15% (9582/63878)Updating files:  15% (9642/63878)Updating files:  16% (10221/63878)Updating files:  17% (10860/63878)Updating files:  17% (11183/63878)Updating files:  18% (11499/63878)Updating files:  19% (12137/63878)Updating files:  20% (12776/63878)Updating files:  20% (12978/63878)Updating files:  21% (13415/63878)Updating files:  22% (14054/63878)Updating files:  22% (14426/63878)Updating files:  23% (14692/63878)Updating files:  24% (15331/63878)Updating files:  25% (15970/63878)Updating files:  25% (15990/63878)Updating files:  26% (16609/63878)Updating files:  27% (17248/63878)Updating files:  27% (17616/63878)Updating files:  28% (17886/63878)Updating files:  29% (18525/63878)Updating files:  29% (19039/63878)Updating files:  30% (19164/63878)Updating files:  31% (19803/63878)Updating files:  32% (20441/63878)Updating files:  32% (20907/63878)Updating files:  33% (21080/63878)Updating files:  34% (21719/63878)Updating files:  35% (22358/63878)Updating files:  35% (22489/63878)Updating files:  36% (22997/63878)Updating files:  36% (23524/63878)Updating files:  37% (23635/63878)Updating files:  38% (24274/63878)Updating files:  39% (24913/63878)Updating files:  39% (24976/63878)Updating files:  40% (25552/63878)Updating files:  40% (26125/63878)Updating files:  41% (26190/63878)Updating files:  41% (26378/63878)Updating files:  41% (26431/63878)Updating files:  42% (26829/63878)Updating files:  42% (27020/63878)Updating files:  43% (27468/63878)Updating files:  44% (28107/63878)Updating files:  44% (28275/63878)Updating files:  45% (28746/63878)Updating files:  46% (29384/63878)Updating files:  46% (29572/63878)Updating files:  47% (30023/63878)Updating files:  47% (30648/63878)Updating files:  48% (30662/63878)Updating files:  49% (31301/63878)Updating files:  49% (31627/63878)Updating files:  50% (31939/63878)Updating files:  51% (32578/63878)Updating files:  51% (32740/63878)Updating files:  52% (33217/63878)Updating files:  52% (33683/63878)Updating files:  53% (33856/63878)Updating files:  54% (34495/63878)Updating files:  54% (34944/63878)Updating files:  55% (35133/63878)Updating files:  56% (35772/63878)Updating files:  56% (36058/63878)Updating files:  57% (36411/63878)Updating files:  57% (36926/63878)Updating files:  58% (37050/63878)Updating files:  58% (37688/63878)Updating files:  59% (37689/63878)Updating files:  60% (38327/63878)Updating files:  60% (38482/63878)Updating files:  61% (38966/63878)Updating files:  61% (39306/63878)Updating files:  62% (39605/63878)Updating files:  62% (40100/63878)Updating files:  63% (40244/63878)Updating files:  64% (40882/63878)Updating files:  64% (41234/63878)Updating files:  65% (41521/63878)Updating files:  66% (42160/63878)Updating files:  66% (42233/63878)Updating files:  67% (42799/63878)Updating files:  67% (43170/63878)Updating files:  68% (43438/63878)Updating files:  68% (44068/63878)Updating files:  69% (44076/63878)Updating files:  70% (44715/63878)Updating files:  70% (45113/63878)Updating files:  71% (45354/63878)Updating files:  72% (45993/63878)Updating files:  72% (46227/63878)Updating files:  73% (46631/63878)Updating files:  73% (47242/63878)Updating files:  74% (47270/63878)Updating files:  75% (47909/63878)Updating files:  75% (48318/63878)Updating files:  76% (48548/63878)Updating files:  77% (49187/63878)Updating files:  77% (49276/63878)warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
