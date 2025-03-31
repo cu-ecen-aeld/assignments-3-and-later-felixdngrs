@@ -1,0 +1,23 @@
+name: assignment-test
+on:
+  push:
+    tags-ignore:
+      - '*'
+    branches:
+      - '*'
+
+jobs:
+  unit-test:
+    container: cuaesd/aesd-autotest:24-unit-test
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: false  # ← vermeidet fatal error beim Checkout
+
+      - name: Checkout submodules (tolerant)
+        run: git submodule update --init --recursive || true  # ← toleriert kaputtes Submodul
+
+      - name: Run unit test
+        run: ./unit-test.sh
+
