@@ -10,6 +10,6 @@ $(APP).o: $(APP).c
 	$(CC) -c $(APP).c
 
 clean:
-	rm $(APP) *.o
+	rm -f $(APP) *.o
 
 .PHONY: clean
