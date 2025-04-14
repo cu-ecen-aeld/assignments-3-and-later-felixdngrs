@@ -3,6 +3,8 @@ APP = writer
 CC = $(CROSS_COMPILE)gcc
 CFLAGS = -Wall -Wextra -fsanitize=address -O2 
 
+all: $(APP)
+
 $(APP): $(APP).o
 	$(CC) -o $(APP) $(APP).o
 
