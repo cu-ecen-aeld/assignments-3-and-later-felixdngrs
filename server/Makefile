@@ -1,5 +1,5 @@
 # Cross compiler 
-CC ?= $(CROSS_COMPILE)gcc
+CC = $(CROSS_COMPILE)gcc
 # Compiler Flags
 CFLAGS ?= -Wall -g
 LDFLAGS ?= -pthread -lrt
